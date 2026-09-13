@@ -3,7 +3,7 @@ import { Link, createFileRoute, useNavigate } from "@tanstack/react-router";
 import { LoaderCircle, UserPlus } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { supabase } from "@/integrations/supabase/client";
-import { AuthField, AuthLayout } from "./signin";
+import { AuthField, AuthLayout } from "@/components/auth-layout";
 
 export const Route = createFileRoute("/signup")({
   head: () => ({ meta: [
