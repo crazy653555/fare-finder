@@ -34,7 +34,7 @@ function Index() {
       </header>
 
       <main>
-        <section className="relative mx-auto flex min-h-[calc(100vh-5rem)] max-w-7xl items-center px-5 pb-16 pt-10 sm:px-8 sm:pb-24">
+        <section className="relative mx-auto flex min-h-[calc(100svh-12rem)] max-w-7xl items-center px-5 pb-16 pt-10 sm:px-8 sm:pb-24">
           <div className="flight-grid pointer-events-none absolute inset-0 opacity-50" />
           <div className="absolute right-[8%] top-[16%] h-px w-[42%] rotate-[-12deg] bg-primary/35" />
           <div className="fade-up relative z-10 max-w-4xl">
